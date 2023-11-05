@@ -1,0 +1,1204 @@
+[
+  {
+    "_id": "0001",
+    "name": "Bulbasaur",
+    "type": ["Grass", "Poison"],
+    "species": "Seed",
+    "successor": "0002",
+    "stats": { "HP": 45, "attack": 49, "defense": 49, "speed": 45 }
+  },
+  {
+    "_id": "0002",
+    "name": "Ivysaur",
+    "type": ["Grass", "Poison"],
+    "species": "Seed",
+    "predecessor": "0001",
+    "successor": "0003",
+    "stats": { "HP": 60, "attack": 62, "defense": 63, "speed": 60 }
+  },
+  {
+    "_id": "0003",
+    "name": "Venusaur",
+    "type": ["Grass", "Poison"],
+    "species": "Seed",
+    "predecessor": "0002",
+    "stats": { "HP": 80, "attack": 82, "defense": 83, "speed": 80 }
+  },
+  {
+    "_id": "0004",
+    "name": "Charmander",
+    "type": ["Fire"],
+    "species": "Lizard",
+    "successor": "0005",
+    "stats": { "HP": 39, "attack": 52, "defense": 43, "speed": 65 }
+  },
+  {
+    "_id": "0005",
+    "name": "Charmeleon",
+    "type": ["Fire"],
+    "species": "Flame",
+    "predecessor": "0004",
+    "successor": "0006",
+    "stats": { "HP": 58, "attack": 64, "defense": 58, "speed": 80 }
+  },
+  {
+    "_id": "0006",
+    "name": "Charizard",
+    "type": ["Fire", "Flying"],
+    "species": "Flame",
+    "predecessor": "0005",
+    "stats": { "HP": 78, "attack": 84, "defense": 78, "speed": 100 }
+  },
+  {
+    "_id": "0007",
+    "name": "Squirtle",
+    "type": ["Water"],
+    "species": "Tiny Turtle",
+    "successor": "0008",
+    "stats": { "HP": 44, "attack": 48, "defense": 65, "speed": 43 }
+  },
+  {
+    "_id": "0008",
+    "name": "Wartortle",
+    "type": ["Water"],
+    "species": "Turtle",
+    "predecessor": "0007",
+    "successor": "0009",
+    "stats": { "HP": 59, "attack": 63, "defense": 80, "speed": 58 }
+  },
+  {
+    "_id": "0009",
+    "name": "Blastoise",
+    "type": ["Water"],
+    "species": "Shellfish",
+    "predecessor": "0008",
+    "stats": { "HP": 79, "attack": 83, "defense": 100, "speed": 78 }
+  },
+  {
+    "_id": "0010",
+    "name": "Caterpie",
+    "type": ["Bug"],
+    "species": "Worm",
+    "successor": "0011",
+    "stats": { "HP": 45, "attack": 30, "defense": 35, "speed": 45 }
+  },
+  {
+    "_id": "0011",
+    "name": "Metapod",
+    "type": ["Bug"],
+    "species": "Cocoon",
+    "predecessor": "0010",
+    "successor": "0012",
+    "stats": { "HP": 50, "attack": 20, "defense": 55, "speed": 30 }
+  },
+  {
+    "_id": "0012",
+    "name": "Butterfree",
+    "type": ["Bug", "Flying"],
+    "species": "Butterfly",
+    "predecessor": "0011",
+    "stats": { "HP": 60, "attack": 45, "defense": 50, "speed": 70 }
+  },
+  {
+    "_id": "0013",
+    "name": "Weedle",
+    "type": ["Bug", "Poison"],
+    "species": "Hairy",
+    "successor": "0014",
+    "stats": { "HP": 40, "attack": 35, "defense": 30, "speed": 50 }
+  },
+  {
+    "_id": "0014",
+    "name": "Kakuna",
+    "type": ["Bug", "Poison"],
+    "species": "Cocoon",
+    "predecessor": "0013",
+    "successor": "0015",
+    "stats": { "HP": 45, "attack": 25, "defense": 50, "speed": 35 }
+  },
+  {
+    "_id": "0015",
+    "name": "Beedrill",
+    "type": ["Bug", "Poison"],
+    "species": "Poison Bee",
+    "predecessor": "0014",
+    "stats": { "HP": 65, "attack": 90, "defense": 40, "speed": 75 }
+  },
+  {
+    "_id": "0016",
+    "name": "Pidgey",
+    "type": ["Normal", "Flying"],
+    "species": "Tiny Bird",
+    "successor": "0017",
+    "stats": { "HP": 40, "attack": 45, "defense": 40, "speed": 56 }
+  },
+  {
+    "_id": "0017",
+    "name": "Pidgeotto",
+    "type": ["Normal", "Flying"],
+    "species": "Bird",
+    "predecessor": "0016",
+    "successor": "0018",
+    "stats": { "HP": 63, "attack": 60, "defense": 55, "speed": 71 }
+  },
+  {
+    "_id": "0018",
+    "name": "Pidgeot",
+    "type": ["Normal", "Flying"],
+    "species": "Bird",
+    "predecessor": "0017",
+    "stats": { "HP": 83, "attack": 80, "defense": 75, "speed": 91 }
+  },
+  {
+    "_id": "0019",
+    "name": "Rattata",
+    "type": ["Normal"],
+    "species": "Mouse",
+    "successor": "0020",
+    "stats": { "HP": 30, "attack": 56, "defense": 35, "speed": 72 }
+  },
+  {
+    "_id": "0020",
+    "name": "Raticate",
+    "type": ["Normal"],
+    "species": "Mouse",
+    "predecessor": "0019",
+    "stats": { "HP": 55, "attack": 81, "defense": 60, "speed": 97 }
+  },
+  {
+    "_id": "0021",
+    "name": "Spearow",
+    "type": ["Normal", "Flying"],
+    "species": "Tiny Bird",
+    "successor": "0022",
+    "stats": { "HP": 40, "attack": 60, "defense": 30, "speed": 70 }
+  },
+  {
+    "_id": "0022",
+    "name": "Fearow",
+    "type": ["Normal", "Flying"],
+    "species": "Beak",
+    "predecessor": "0021",
+    "stats": { "HP": 65, "attack": 90, "defense": 65, "speed": 100 }
+  },
+  {
+    "_id": "0023",
+    "name": "Ekans",
+    "type": ["Poison"],
+    "species": "Snake",
+    "successor": "0024",
+    "stats": { "HP": 35, "attack": 60, "defense": 44, "speed": 55 }
+  },
+  {
+    "_id": "0024",
+    "name": "Arbok",
+    "type": ["Poison"],
+    "species": "Cobra",
+    "predecessor": "0023",
+    "stats": { "HP": 60, "attack": 95, "defense": 69, "speed": 80 }
+  },
+  {
+    "_id": "0025",
+    "name": "Pikachu",
+    "type": ["Electric"],
+    "species": "Mouse",
+    "successor": "0026",
+    "stats": { "HP": 35, "attack": 55, "defense": 40, "speed": 90 }
+  },
+  {
+    "_id": "0026",
+    "name": "Raichu",
+    "type": ["Electric"],
+    "species": "Mouse",
+    "predecessor": "0025",
+    "stats": { "HP": 60, "attack": 90, "defense": 55, "speed": 110 }
+  },
+  {
+    "_id": "0027",
+    "name": "Sandshrew",
+    "type": ["Ground"],
+    "species": "Mouse",
+    "successor": "0028",
+    "stats": { "HP": 50, "attack": 75, "defense": 85, "speed": 40 }
+  },
+  {
+    "_id": "0028",
+    "name": "Sandslash",
+    "type": ["Ground"],
+    "species": "Mouse",
+    "predecessor": "0027",
+    "stats": { "HP": 75, "attack": 100, "defense": 110, "speed": 65 }
+  },
+  {
+    "_id": "0029",
+    "name": "Nidoran\u00e2\u2122\u20ac",
+    "type": ["Poison"],
+    "species": "Poison Pin",
+    "successor": "0030",
+    "stats": { "HP": 55, "attack": 47, "defense": 52, "speed": 41 }
+  },
+  {
+    "_id": "0030",
+    "name": "Nidorina",
+    "type": ["Poison"],
+    "species": "Poison Pin",
+    "predecessor": "0029",
+    "successor": "0031",
+    "stats": { "HP": 70, "attack": 62, "defense": 67, "speed": 56 }
+  },
+  {
+    "_id": "0031",
+    "name": "Nidoqueen",
+    "type": ["Poison", "Ground"],
+    "species": "Drill",
+    "predecessor": "0030",
+    "stats": { "HP": 90, "attack": 92, "defense": 87, "speed": 76 }
+  },
+  {
+    "_id": "0032",
+    "name": "Nidoran\u00e2\u2122\u201a",
+    "type": ["Poison"],
+    "species": "Poison Pin",
+    "successor": "0033",
+    "stats": { "HP": 46, "attack": 57, "defense": 40, "speed": 50 }
+  },
+  {
+    "_id": "0033",
+    "name": "Nidorino",
+    "type": ["Poison"],
+    "species": "Poison Pin",
+    "predecessor": "0032",
+    "successor": "0034",
+    "stats": { "HP": 61, "attack": 72, "defense": 57, "speed": 65 }
+  },
+  {
+    "_id": "0034",
+    "name": "Nidoking",
+    "type": ["Poison", "Ground"],
+    "species": "Drill",
+    "predecessor": "0033",
+    "stats": { "HP": 81, "attack": 102, "defense": 77, "speed": 85 }
+  },
+  {
+    "_id": "0035",
+    "name": "Clefairy",
+    "type": ["Fairy"],
+    "species": "Fairy",
+    "successor": "0036",
+    "stats": { "HP": 70, "attack": 45, "defense": 48, "speed": 35 }
+  },
+  {
+    "_id": "0036",
+    "name": "Clefable",
+    "type": ["Fairy"],
+    "species": "Fairy",
+    "predecessor": "0035",
+    "stats": { "HP": 95, "attack": 70, "defense": 73, "speed": 60 }
+  },
+  {
+    "_id": "0037",
+    "name": "Vulpix",
+    "type": ["Fire"],
+    "species": "Fox",
+    "successor": "0038",
+    "stats": { "HP": 38, "attack": 41, "defense": 40, "speed": 65 }
+  },
+  {
+    "_id": "0038",
+    "name": "Ninetales",
+    "type": ["Fire"],
+    "species": "Fox",
+    "predecessor": "0037",
+    "stats": { "HP": 73, "attack": 76, "defense": 75, "speed": 100 }
+  },
+  {
+    "_id": "0039",
+    "name": "Jigglypuff",
+    "type": ["Normal", "Fairy"],
+    "species": "Balloon",
+    "successor": "0040",
+    "stats": { "HP": 115, "attack": 45, "defense": 20, "speed": 20 }
+  },
+  {
+    "_id": "0040",
+    "name": "Wigglytuff",
+    "type": ["Normal", "Fairy"],
+    "species": "Balloon",
+    "predecessor": "0039",
+    "stats": { "HP": 140, "attack": 70, "defense": 45, "speed": 45 }
+  },
+  {
+    "_id": "0041",
+    "name": "Zubat",
+    "type": ["Poison", "Flying"],
+    "species": "Bat",
+    "successor": "0042",
+    "stats": { "HP": 40, "attack": 45, "defense": 35, "speed": 55 }
+  },
+  {
+    "_id": "0042",
+    "name": "Golbat",
+    "type": ["Poison", "Flying"],
+    "species": "Bat",
+    "predecessor": "0041",
+    "stats": { "HP": 75, "attack": 80, "defense": 70, "speed": 90 }
+  },
+  {
+    "_id": "0043",
+    "name": "Oddish",
+    "type": ["Grass", "Poison"],
+    "species": "Weed",
+    "successor": "0044",
+    "stats": { "HP": 45, "attack": 50, "defense": 55, "speed": 30 }
+  },
+  {
+    "_id": "0044",
+    "name": "Gloom",
+    "type": ["Grass", "Poison"],
+    "species": "Weed",
+    "predecessor": "0043",
+    "successor": "0045",
+    "stats": { "HP": 60, "attack": 65, "defense": 70, "speed": 40 }
+  },
+  {
+    "_id": "0045",
+    "name": "Vileplume",
+    "type": ["Grass", "Poison"],
+    "species": "Flower",
+    "predecessor": "0044",
+    "stats": { "HP": 75, "attack": 80, "defense": 85, "speed": 50 }
+  },
+  {
+    "_id": "0046",
+    "name": "Paras",
+    "type": ["Bug", "Grass"],
+    "species": "Mushroom",
+    "successor": "0047",
+    "stats": { "HP": 35, "attack": 70, "defense": 55, "speed": 25 }
+  },
+  {
+    "_id": "0047",
+    "name": "Parasect",
+    "type": ["Bug", "Grass"],
+    "species": "Mushroom",
+    "predecessor": "0046",
+    "stats": { "HP": 60, "attack": 95, "defense": 80, "speed": 30 }
+  },
+  {
+    "_id": "0048",
+    "name": "Venonat",
+    "type": ["Bug", "Poison"],
+    "species": "Insect",
+    "successor": "0049",
+    "stats": { "HP": 60, "attack": 55, "defense": 50, "speed": 45 }
+  },
+  {
+    "_id": "0049",
+    "name": "Venomoth",
+    "type": ["Bug", "Poison"],
+    "species": "Poison Moth",
+    "predecessor": "0048",
+    "stats": { "HP": 70, "attack": 65, "defense": 60, "speed": 90 }
+  },
+  {
+    "_id": "0050",
+    "name": "Diglett",
+    "type": ["Ground"],
+    "species": "Mole",
+    "successor": "0051",
+    "stats": { "HP": 10, "attack": 55, "defense": 25, "speed": 95 }
+  },
+  {
+    "_id": "0051",
+    "name": "Dugtrio",
+    "type": ["Ground"],
+    "species": "Mole",
+    "predecessor": "0050",
+    "stats": { "HP": 35, "attack": 100, "defense": 50, "speed": 120 }
+  },
+  {
+    "_id": "0052",
+    "name": "Meowth",
+    "type": ["Normal"],
+    "species": "Scratch Cat",
+    "successor": "0053",
+    "stats": { "HP": 40, "attack": 45, "defense": 35, "speed": 90 }
+  },
+  {
+    "_id": "0053",
+    "name": "Persian",
+    "type": ["Normal"],
+    "species": "Classy Cat",
+    "predecessor": "0052",
+    "stats": { "HP": 65, "attack": 70, "defense": 60, "speed": 115 }
+  },
+  {
+    "_id": "0054",
+    "name": "Psyduck",
+    "type": ["Water"],
+    "species": "Duck",
+    "successor": "0055",
+    "stats": { "HP": 50, "attack": 52, "defense": 48, "speed": 55 }
+  },
+  {
+    "_id": "0055",
+    "name": "Golduck",
+    "type": ["Water"],
+    "species": "Duck",
+    "predecessor": "0054",
+    "stats": { "HP": 80, "attack": 82, "defense": 78, "speed": 85 }
+  },
+  {
+    "_id": "0056",
+    "name": "Mankey",
+    "type": ["Fighting"],
+    "species": "Pig Monkey",
+    "successor": "0057",
+    "stats": { "HP": 40, "attack": 80, "defense": 35, "speed": 70 }
+  },
+  {
+    "_id": "0057",
+    "name": "Primeape",
+    "type": ["Fighting"],
+    "species": "Pig Monkey",
+    "predecessor": "0056",
+    "stats": { "HP": 65, "attack": 105, "defense": 60, "speed": 95 }
+  },
+  {
+    "_id": "0058",
+    "name": "Growlithe",
+    "type": ["Fire"],
+    "species": "Puppy",
+    "successor": "0059",
+    "stats": { "HP": 55, "attack": 70, "defense": 45, "speed": 60 }
+  },
+  {
+    "_id": "0059",
+    "name": "Arcanine",
+    "type": ["Fire"],
+    "species": "Legendary",
+    "predecessor": "0058",
+    "stats": { "HP": 90, "attack": 110, "defense": 80, "speed": 95 }
+  },
+  {
+    "_id": "0060",
+    "name": "Poliwag",
+    "type": ["Water"],
+    "species": "Tadpole",
+    "successor": "0061",
+    "stats": { "HP": 40, "attack": 50, "defense": 40, "speed": 90 }
+  },
+  {
+    "_id": "0061",
+    "name": "Poliwhirl",
+    "type": ["Water"],
+    "species": "Tadpole",
+    "predecessor": "0060",
+    "successor": "0062",
+    "stats": { "HP": 65, "attack": 65, "defense": 65, "speed": 90 }
+  },
+  {
+    "_id": "0062",
+    "name": "Poliwrath",
+    "type": ["Water", "Fighting"],
+    "species": "Tadpole",
+    "predecessor": "0061",
+    "stats": { "HP": 90, "attack": 95, "defense": 95, "speed": 70 }
+  },
+  {
+    "_id": "0063",
+    "name": "Abra",
+    "type": ["Psychic"],
+    "species": "Psi",
+    "successor": "0064",
+    "stats": { "HP": 25, "attack": 20, "defense": 15, "speed": 90 }
+  },
+  {
+    "_id": "0064",
+    "name": "Kadabra",
+    "type": ["Psychic"],
+    "species": "Psi",
+    "predecessor": "0063",
+    "successor": "0065",
+    "stats": { "HP": 40, "attack": 35, "defense": 30, "speed": 105 }
+  },
+  {
+    "_id": "0065",
+    "name": "Alakazam",
+    "type": ["Psychic"],
+    "species": "Psi",
+    "predecessor": "0064",
+    "stats": { "HP": 55, "attack": 50, "defense": 45, "speed": 120 }
+  },
+  {
+    "_id": "0066",
+    "name": "Machop",
+    "type": ["Fighting"],
+    "species": "Superpower",
+    "successor": "0067",
+    "stats": { "HP": 70, "attack": 80, "defense": 50, "speed": 35 }
+  },
+  {
+    "_id": "0067",
+    "name": "Machoke",
+    "type": ["Fighting"],
+    "species": "Superpower",
+    "predecessor": "0066",
+    "successor": "0068",
+    "stats": { "HP": 80, "attack": 100, "defense": 70, "speed": 45 }
+  },
+  {
+    "_id": "0068",
+    "name": "Machamp",
+    "type": ["Fighting"],
+    "species": "Superpower",
+    "predecessor": "0067",
+    "stats": { "HP": 90, "attack": 130, "defense": 80, "speed": 55 }
+  },
+  {
+    "_id": "0069",
+    "name": "Bellsprout",
+    "type": ["Grass", "Poison"],
+    "species": "Flower",
+    "successor": "0070",
+    "stats": { "HP": 50, "attack": 75, "defense": 35, "speed": 40 }
+  },
+  {
+    "_id": "0070",
+    "name": "Weepinbell",
+    "type": ["Grass", "Poison"],
+    "species": "Flycatcher",
+    "predecessor": "0069",
+    "successor": "0071",
+    "stats": { "HP": 65, "attack": 90, "defense": 50, "speed": 55 }
+  },
+  {
+    "_id": "0071",
+    "name": "Victreebel",
+    "type": ["Grass", "Poison"],
+    "species": "Flycatcher",
+    "predecessor": "0070",
+    "stats": { "HP": 80, "attack": 105, "defense": 65, "speed": 70 }
+  },
+  {
+    "_id": "0072",
+    "name": "Tentacool",
+    "type": ["Water", "Poison"],
+    "species": "Jellyfish",
+    "successor": "0073",
+    "stats": { "HP": 40, "attack": 40, "defense": 35, "speed": 70 }
+  },
+  {
+    "_id": "0073",
+    "name": "Tentacruel",
+    "type": ["Water", "Poison"],
+    "species": "Jellyfish",
+    "predecessor": "0072",
+    "stats": { "HP": 80, "attack": 70, "defense": 65, "speed": 100 }
+  },
+  {
+    "_id": "0074",
+    "name": "Geodude",
+    "type": ["Rock", "Ground"],
+    "species": "Rock",
+    "successor": "0075",
+    "stats": { "HP": 40, "attack": 80, "defense": 100, "speed": 20 }
+  },
+  {
+    "_id": "0075",
+    "name": "Graveler",
+    "type": ["Rock", "Ground"],
+    "species": "Rock",
+    "predecessor": "0074",
+    "successor": "0076",
+    "stats": { "HP": 55, "attack": 95, "defense": 115, "speed": 35 }
+  },
+  {
+    "_id": "0076",
+    "name": "Golem",
+    "type": ["Rock", "Ground"],
+    "species": "Megaton",
+    "predecessor": "0075",
+    "stats": { "HP": 80, "attack": 120, "defense": 130, "speed": 45 }
+  },
+  {
+    "_id": "0077",
+    "name": "Ponyta",
+    "type": ["Fire"],
+    "species": "Fire Horse",
+    "successor": "0078",
+    "stats": { "HP": 50, "attack": 85, "defense": 55, "speed": 90 }
+  },
+  {
+    "_id": "0078",
+    "name": "Rapidash",
+    "type": ["Fire"],
+    "species": "Fire Horse",
+    "predecessor": "0077",
+    "stats": { "HP": 65, "attack": 100, "defense": 70, "speed": 105 }
+  },
+  {
+    "_id": "0079",
+    "name": "Slowpoke",
+    "type": ["Water", "Psychic"],
+    "species": "Dopey",
+    "successor": "0080",
+    "stats": { "HP": 90, "attack": 65, "defense": 65, "speed": 15 }
+  },
+  {
+    "_id": "0080",
+    "name": "Slowbro",
+    "type": ["Water", "Psychic"],
+    "species": "Hermit Crab",
+    "predecessor": "0079",
+    "stats": { "HP": 95, "attack": 75, "defense": 110, "speed": 30 }
+  },
+  {
+    "_id": "0081",
+    "name": "Magnemite",
+    "type": ["Electric", "Steel"],
+    "species": "Magnet",
+    "successor": "0082",
+    "stats": { "HP": 25, "attack": 35, "defense": 70, "speed": 45 }
+  },
+  {
+    "_id": "0082",
+    "name": "Magneton",
+    "type": ["Electric", "Steel"],
+    "species": "Magnet",
+    "predecessor": "0081",
+    "stats": { "HP": 50, "attack": 60, "defense": 95, "speed": 70 }
+  },
+  {
+    "_id": "0083",
+    "name": "Farfetch'd",
+    "type": ["Normal", "Flying"],
+    "species": "Wild Duck",
+    "stats": { "HP": 52, "attack": 90, "defense": 55, "speed": 60 }
+  },
+  {
+    "_id": "0084",
+    "name": "Doduo",
+    "type": ["Normal", "Flying"],
+    "species": "Twin Bird",
+    "successor": "0085",
+    "stats": { "HP": 35, "attack": 85, "defense": 45, "speed": 75 }
+  },
+  {
+    "_id": "0085",
+    "name": "Dodrio",
+    "type": ["Normal", "Flying"],
+    "species": "Triple Bird",
+    "predecessor": "0084",
+    "stats": { "HP": 60, "attack": 110, "defense": 70, "speed": 100 }
+  },
+  {
+    "_id": "0086",
+    "name": "Seel",
+    "type": ["Water"],
+    "species": "Sea Lion",
+    "successor": "0087",
+    "stats": { "HP": 65, "attack": 45, "defense": 55, "speed": 45 }
+  },
+  {
+    "_id": "0087",
+    "name": "Dewgong",
+    "type": ["Water", "Ice"],
+    "species": "Sea Lion",
+    "predecessor": "0086",
+    "stats": { "HP": 90, "attack": 70, "defense": 80, "speed": 70 }
+  },
+  {
+    "_id": "0088",
+    "name": "Grimer",
+    "type": ["Poison"],
+    "species": "Sludge",
+    "successor": "0089",
+    "stats": { "HP": 80, "attack": 80, "defense": 50, "speed": 25 }
+  },
+  {
+    "_id": "0089",
+    "name": "Muk",
+    "type": ["Poison"],
+    "species": "Sludge",
+    "predecessor": "0088",
+    "stats": { "HP": 105, "attack": 105, "defense": 75, "speed": 50 }
+  },
+  {
+    "_id": "0090",
+    "name": "Shellder",
+    "type": ["Water"],
+    "species": "Bivalve",
+    "successor": "0091",
+    "stats": { "HP": 30, "attack": 65, "defense": 100, "speed": 40 }
+  },
+  {
+    "_id": "0091",
+    "name": "Cloyster",
+    "type": ["Water", "Ice"],
+    "species": "Bivalve",
+    "predecessor": "0090",
+    "stats": { "HP": 50, "attack": 95, "defense": 180, "speed": 70 }
+  },
+  {
+    "_id": "0092",
+    "name": "Gastly",
+    "type": ["Ghost", "Poison"],
+    "species": "Gas",
+    "successor": "0093",
+    "stats": { "HP": 30, "attack": 35, "defense": 30, "speed": 80 }
+  },
+  {
+    "_id": "0093",
+    "name": "Haunter",
+    "type": ["Ghost", "Poison"],
+    "species": "Gas",
+    "predecessor": "0092",
+    "successor": "0094",
+    "stats": { "HP": 45, "attack": 50, "defense": 45, "speed": 95 }
+  },
+  {
+    "_id": "0094",
+    "name": "Gengar",
+    "type": ["Ghost", "Poison"],
+    "species": "Shadow",
+    "predecessor": "0093",
+    "stats": { "HP": 60, "attack": 65, "defense": 60, "speed": 110 }
+  },
+  {
+    "_id": "0095",
+    "name": "Onix",
+    "type": ["Rock", "Ground"],
+    "species": "Rock Snake",
+    "stats": { "HP": 35, "attack": 45, "defense": 160, "speed": 70 }
+  },
+  {
+    "_id": "0096",
+    "name": "Drowzee",
+    "type": ["Psychic"],
+    "species": "Hypnosis",
+    "successor": "0097",
+    "stats": { "HP": 60, "attack": 48, "defense": 45, "speed": 42 }
+  },
+  {
+    "_id": "0097",
+    "name": "Hypno",
+    "type": ["Psychic"],
+    "species": "Hypnosis",
+    "predecessor": "0096",
+    "stats": { "HP": 85, "attack": 73, "defense": 70, "speed": 67 }
+  },
+  {
+    "_id": "0098",
+    "name": "Krabby",
+    "type": ["Water"],
+    "species": "River Crab",
+    "successor": "0099",
+    "stats": { "HP": 30, "attack": 105, "defense": 90, "speed": 50 }
+  },
+  {
+    "_id": "0099",
+    "name": "Kingler",
+    "type": ["Water"],
+    "species": "Pincer",
+    "predecessor": "0098",
+    "stats": { "HP": 55, "attack": 130, "defense": 115, "speed": 75 }
+  },
+  {
+    "_id": "0100",
+    "name": "Voltorb",
+    "type": ["Electric"],
+    "species": "Ball",
+    "successor": "0101",
+    "stats": { "HP": 40, "attack": 30, "defense": 50, "speed": 100 }
+  },
+  {
+    "_id": "0101",
+    "name": "Electrode",
+    "type": ["Electric"],
+    "species": "Ball",
+    "predecessor": "0100",
+    "stats": { "HP": 60, "attack": 50, "defense": 70, "speed": 140 }
+  },
+  {
+    "_id": "0102",
+    "name": "Exeggcute",
+    "type": ["Grass", "Psychic"],
+    "species": "Egg",
+    "successor": "0103",
+    "stats": { "HP": 60, "attack": 40, "defense": 80, "speed": 40 }
+  },
+  {
+    "_id": "0103",
+    "name": "Exeggutor",
+    "type": ["Grass", "Psychic"],
+    "species": "Coconut",
+    "predecessor": "0102",
+    "stats": { "HP": 95, "attack": 95, "defense": 85, "speed": 55 }
+  },
+  {
+    "_id": "0104",
+    "name": "Cubone",
+    "type": ["Ground"],
+    "species": "Lonely",
+    "successor": "0105",
+    "stats": { "HP": 50, "attack": 50, "defense": 95, "speed": 35 }
+  },
+  {
+    "_id": "0105",
+    "name": "Marowak",
+    "type": ["Ground"],
+    "species": "Bone Keeper",
+    "predecessor": "0104",
+    "stats": { "HP": 60, "attack": 80, "defense": 110, "speed": 45 }
+  },
+  {
+    "_id": "0106",
+    "name": "Hitmonlee",
+    "type": ["Fighting"],
+    "species": "Kicking",
+    "stats": { "HP": 50, "attack": 120, "defense": 53, "speed": 87 }
+  },
+  {
+    "_id": "0107",
+    "name": "Hitmonchan",
+    "type": ["Fighting"],
+    "species": "Punching",
+    "stats": { "HP": 50, "attack": 105, "defense": 79, "speed": 76 }
+  },
+  {
+    "_id": "0108",
+    "name": "Lickitung",
+    "type": ["Normal"],
+    "species": "Licking",
+    "stats": { "HP": 90, "attack": 55, "defense": 75, "speed": 30 }
+  },
+  {
+    "_id": "0109",
+    "name": "Koffing",
+    "type": ["Poison"],
+    "species": "Poison Gas",
+    "successor": "0110",
+    "stats": { "HP": 40, "attack": 65, "defense": 95, "speed": 35 }
+  },
+  {
+    "_id": "0110",
+    "name": "Weezing",
+    "type": ["Poison"],
+    "species": "Poison Gas",
+    "predecessor": "0109",
+    "stats": { "HP": 65, "attack": 90, "defense": 120, "speed": 60 }
+  },
+  {
+    "_id": "0111",
+    "name": "Rhyhorn",
+    "type": ["Ground", "Rock"],
+    "species": "Spikes",
+    "successor": "0112",
+    "stats": { "HP": 80, "attack": 85, "defense": 95, "speed": 25 }
+  },
+  {
+    "_id": "0112",
+    "name": "Rhydon",
+    "type": ["Ground", "Rock"],
+    "species": "Drill",
+    "predecessor": "0111",
+    "stats": { "HP": 105, "attack": 130, "defense": 120, "speed": 40 }
+  },
+  {
+    "_id": "0113",
+    "name": "Chansey",
+    "type": ["Normal"],
+    "species": "Egg",
+    "successor": "0114",
+    "stats": { "HP": 250, "attack": 5, "defense": 5, "speed": 50 }
+  },
+  {
+    "_id": "0114",
+    "name": "Tangela",
+    "type": ["Grass"],
+    "species": "Vine",
+    "predecessor": "0113",
+    "stats": { "HP": 65, "attack": 55, "defense": 115, "speed": 60 }
+  },
+  {
+    "_id": "0115",
+    "name": "Kangaskhan",
+    "type": ["Normal"],
+    "species": "Parent",
+    "stats": { "HP": 105, "attack": 95, "defense": 80, "speed": 90 }
+  },
+  {
+    "_id": "0116",
+    "name": "Horsea",
+    "type": ["Water"],
+    "species": "Dragon",
+    "successor": "0117",
+    "stats": { "HP": 30, "attack": 40, "defense": 70, "speed": 60 }
+  },
+  {
+    "_id": "0117",
+    "name": "Seadra",
+    "type": ["Water"],
+    "species": "Dragon",
+    "predecessor": "0116",
+    "stats": { "HP": 55, "attack": 65, "defense": 95, "speed": 85 }
+  },
+  {
+    "_id": "0118",
+    "name": "Goldeen",
+    "type": ["Water"],
+    "species": "Goldfish",
+    "successor": "0119",
+    "stats": { "HP": 45, "attack": 67, "defense": 60, "speed": 63 }
+  },
+  {
+    "_id": "0119",
+    "name": "Seaking",
+    "type": ["Water"],
+    "species": "Goldfish",
+    "predecessor": "0118",
+    "stats": { "HP": 80, "attack": 92, "defense": 65, "speed": 68 }
+  },
+  {
+    "_id": "0120",
+    "name": "Staryu",
+    "type": ["Water"],
+    "species": "Starshape",
+    "successor": "0121",
+    "stats": { "HP": 30, "attack": 45, "defense": 55, "speed": 85 }
+  },
+  {
+    "_id": "0121",
+    "name": "Starmie",
+    "type": ["Water", "Psychic"],
+    "species": "Mysterious",
+    "predecessor": "0120",
+    "stats": { "HP": 60, "attack": 75, "defense": 85, "speed": 115 }
+  },
+  {
+    "_id": "0122",
+    "name": "Mr. Mime",
+    "type": ["Psychic", "Fairy"],
+    "species": "Barrier",
+    "stats": { "HP": 40, "attack": 45, "defense": 65, "speed": 90 }
+  },
+  {
+    "_id": "0123",
+    "name": "Scyther",
+    "type": ["Bug", "Flying"],
+    "species": "Mantis",
+    "stats": { "HP": 70, "attack": 110, "defense": 80, "speed": 105 }
+  },
+  {
+    "_id": "0124",
+    "name": "Jynx",
+    "type": ["Ice", "Psychic"],
+    "species": "Human Shape",
+    "stats": { "HP": 65, "attack": 50, "defense": 35, "speed": 95 }
+  },
+  {
+    "_id": "0125",
+    "name": "Electabuzz",
+    "type": ["Electric"],
+    "species": "Electric",
+    "stats": { "HP": 65, "attack": 83, "defense": 57, "speed": 105 }
+  },
+  {
+    "_id": "0126",
+    "name": "Magmar",
+    "type": ["Fire"],
+    "species": "Spitfire",
+    "stats": { "HP": 65, "attack": 95, "defense": 57, "speed": 93 }
+  },
+  {
+    "_id": "0127",
+    "name": "Pinsir",
+    "type": ["Bug"],
+    "species": "Stagbeetle",
+    "stats": { "HP": 65, "attack": 125, "defense": 100, "speed": 85 }
+  },
+  {
+    "_id": "0128",
+    "name": "Tauros",
+    "type": ["Normal"],
+    "species": "Wild Bull",
+    "stats": { "HP": 75, "attack": 100, "defense": 95, "speed": 110 }
+  },
+  {
+    "_id": "0129",
+    "name": "Magikarp",
+    "type": ["Water"],
+    "species": "Fish",
+    "successor": "0130",
+    "stats": { "HP": 20, "attack": 10, "defense": 55, "speed": 80 }
+  },
+  {
+    "_id": "0130",
+    "name": "Gyarados",
+    "type": ["Water", "Flying"],
+    "species": "Atrocious",
+    "predecessor": "0129",
+    "stats": { "HP": 95, "attack": 125, "defense": 79, "speed": 81 }
+  },
+  {
+    "_id": "0131",
+    "name": "Lapras",
+    "type": ["Water", "Ice"],
+    "species": "Transport",
+    "stats": { "HP": 130, "attack": 85, "defense": 80, "speed": 60 }
+  },
+  {
+    "_id": "0132",
+    "name": "Ditto",
+    "type": ["Normal"],
+    "species": "Transform",
+    "stats": { "HP": 48, "attack": 48, "defense": 48, "speed": 48 }
+  },
+  {
+    "_id": "0133",
+    "name": "Eevee",
+    "type": ["Normal"],
+    "species": "Evolution",
+    "successor": "0134",
+    "stats": { "HP": 55, "attack": 55, "defense": 50, "speed": 55 }
+  },
+  {
+    "_id": "0134",
+    "name": "Vaporeon",
+    "type": ["Water"],
+    "species": "Bubble Jet",
+    "predecessor": "0133",
+    "stats": { "HP": 130, "attack": 65, "defense": 60, "speed": 65 }
+  },
+  {
+    "_id": "0135",
+    "name": "Jolteon",
+    "type": ["Electric"],
+    "species": "Lightning",
+    "predecessor": "0133",
+    "stats": { "HP": 65, "attack": 65, "defense": 60, "speed": 130 }
+  },
+  {
+    "_id": "0136",
+    "name": "Flareon",
+    "type": ["Fire"],
+    "species": "Flame",
+    "predecessor": "0133",
+    "stats": { "HP": 65, "attack": 130, "defense": 60, "speed": 65 }
+  },
+  {
+    "_id": "0137",
+    "name": "Porygon",
+    "type": ["Normal"],
+    "species": "Virtual",
+    "successor": "0230",
+    "stats": { "HP": 65, "attack": 60, "defense": 70, "speed": 40 }
+  },
+  {
+    "_id": "0138",
+    "name": "Omanyte",
+    "type": ["Rock", "Water"],
+    "species": "Spiral",
+    "successor": "0139",
+    "stats": { "HP": 35, "attack": 40, "defense": 100, "speed": 35 }
+  },
+  {
+    "_id": "0139",
+    "name": "Omastar",
+    "type": ["Rock", "Water"],
+    "species": "Spiral",
+    "predecessor": "0138",
+    "stats": { "HP": 70, "attack": 60, "defense": 125, "speed": 55 }
+  },
+  {
+    "_id": "0140",
+    "name": "Kabuto",
+    "type": ["Rock", "Water"],
+    "species": "Shellfish",
+    "successor": "0141",
+    "stats": { "HP": 30, "attack": 80, "defense": 90, "speed": 55 }
+  },
+  {
+    "_id": "0141",
+    "name": "Kabutops",
+    "type": ["Rock", "Water"],
+    "species": "Shellfish",
+    "predecessor": "0140",
+    "stats": { "HP": 60, "attack": 115, "defense": 105, "speed": 80 }
+  },
+  {
+    "_id": "0142",
+    "name": "Aerodactyl",
+    "type": ["Rock", "Flying"],
+    "species": "Fossil",
+    "stats": { "HP": 80, "attack": 105, "defense": 65, "speed": 130 }
+  },
+  {
+    "_id": "0143",
+    "name": "Snorlax",
+    "type": ["Normal"],
+    "species": "Sleeping",
+    "stats": { "HP": 160, "attack": 110, "defense": 65, "speed": 30 }
+  },
+  {
+    "_id": "0144",
+    "name": "Articuno",
+    "type": ["Ice", "Flying"],
+    "species": "Freeze",
+    "stats": { "HP": 90, "attack": 85, "defense": 100, "speed": 85 }
+  },
+  {
+    "_id": "0145",
+    "name": "Zapdos",
+    "type": ["Electric", "Flying"],
+    "species": "Electric",
+    "stats": { "HP": 90, "attack": 90, "defense": 85, "speed": 100 }
+  },
+  {
+    "_id": "0146",
+    "name": "Moltres",
+    "type": ["Fire", "Flying"],
+    "species": "Flame",
+    "stats": { "HP": 90, "attack": 100, "defense": 90, "speed": 90 }
+  },
+  {
+    "_id": "0147",
+    "name": "Dratini",
+    "type": ["Dragon"],
+    "species": "Dragon",
+    "successor": "0148",
+    "stats": { "HP": 41, "attack": 64, "defense": 45, "speed": 50 }
+  },
+  {
+    "_id": "0148",
+    "name": "Dragonair",
+    "type": ["Dragon"],
+    "species": "Dragon",
+    "predecessor": "0147",
+    "successor": "0149",
+    "stats": { "HP": 61, "attack": 84, "defense": 65, "speed": 70 }
+  },
+  {
+    "_id": "0149",
+    "name": "Dragonite",
+    "type": ["Dragon", "Flying"],
+    "species": "Dragon",
+    "predecessor": "0148",
+    "stats": { "HP": 91, "attack": 134, "defense": 95, "speed": 80 }
+  },
+  {
+    "_id": "0150",
+    "name": "Mewtwo",
+    "type": ["Psychic"],
+    "species": "Genetic",
+    "stats": { "HP": 106, "attack": 110, "defense": 90, "speed": 130 }
+  },
+  {
+    "_id": "0151",
+    "name": "Mew",
+    "type": ["Psychic"],
+    "species": "New Species",
+    "stats": { "HP": 100, "attack": 100, "defense": 100, "speed": 100 }
+  }
+]
